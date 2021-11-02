@@ -22,3 +22,7 @@ for i in range(0, ba):
     print(colored('Visit Sucessfully', 'green'))
   except :
     print(colored('Visit Failed', 'red'))
+def testUserLocationDenver(self):
+	self.chrome.get(self.url)
+	search = self.chrome.find_element_by_id('user-city')
+	self.assertIn('Denver', search.text)
