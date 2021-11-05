@@ -1,4 +1,4 @@
-## _Lunr automation click
+# _Lunr automation click_
 
 ## installation guide
 install selenium: https://pypi.org/project/selenium/
