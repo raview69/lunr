@@ -3,6 +3,7 @@ from selenium import webdriver   # for webdriver
 from selenium.webdriver.support.ui import WebDriverWait  # for implicit and explict waits
 from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.chrome.service import Service
+from time import sleep
 
 
 ab = open('ip.txt', 'r').read().splitlines()
@@ -18,6 +19,7 @@ for i in range(0, ba):
     option.add_argument('headless')
     driver = webdriver.Chrome(service=s, options=option)
     driver.get('https://lnr.app/s/GgqXoj')
+    sleep(2)
     driver.quit()
     print(colored('Visit Sucessfully', 'green'))
   except :
