@@ -7,6 +7,7 @@
 ## browser setting
 - Note: harus menggunakan driver browser chrome.
 - Download browserdriver: https://www.selenium.dev/documentation/getting_started/installing_browser_drivers/
+- Untuk pengguna windows silahkan lihat cara penggunaan selenium di https://steemit.com/selnium/@free-lance-wd/setup-selenium-webdriver-with-python-3-windows-10
 - ubah letak browser path pada "/Users/machintoshd/.wdm/drivers/chromedriver/mac64/95.0.4638.17/chromedriver" sesuai dengan letak driver browser anda.
 
 ## proxy setting
