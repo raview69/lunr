@@ -6,6 +6,7 @@
 
 ## browser setting
 - Note: harus menggunakan driver browser chrome.
+- Download browserdriver: https://www.selenium.dev/documentation/getting_started/installing_browser_drivers/
 - ubah letak browser path pada "/Users/machintoshd/.wdm/drivers/chromedriver/mac64/95.0.4638.17/chromedriver" sesuai dengan letak driver browser anda.
 
 ## proxy setting
