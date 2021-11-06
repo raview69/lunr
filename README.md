@@ -11,4 +11,4 @@
 - ubah letak browser path pada "/Users/machintoshd/.wdm/drivers/chromedriver/mac64/95.0.4638.17/chromedriver" sesuai dengan letak driver browser anda.
 
 ## proxy setting
-- sign up proxy pada website https://proxyelite.info/ dapatkan trial proxynya, pastikan anda memilih proxy yang tanpa password dan download file txtnya lalu copy proxy ke file "ip.txt".
+- sign up proxy pada website https://proxyelite.info/ dapatkan trial proxynya, pilih 'Proxy servers with access without password' download file txtnya lalu copy proxy ke file "ip.txt".
