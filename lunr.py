@@ -19,7 +19,6 @@ for i in range(0, ba):
     option.add_argument('headless')
     driver = webdriver.Chrome(service=s, options=option)
     driver.get('https://lnr.app/s/GgqXoj')
-    sleep(2)
     driver.quit()
     print(colored('Visit Sucessfully', 'green'))
   except :
